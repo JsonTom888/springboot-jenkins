@@ -15,7 +15,7 @@ public class JenkinsController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello jenkins";
+        return "Good ! You have started springboot by jenkins !";
     }
 
 
