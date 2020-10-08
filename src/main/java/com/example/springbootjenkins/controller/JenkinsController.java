@@ -15,7 +15,7 @@ public class JenkinsController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Good ! You have started springboot by jenkins !";
+        return "Good ! You have started springboot by jenkins ! The port is 8888!";
     }
 
 
