@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2020/10/7 14:12
  */
 @RestController
-@RequestMapping
+@RequestMapping("/mary")
 public class JenkinsController {
 
     @GetMapping("/hello")
